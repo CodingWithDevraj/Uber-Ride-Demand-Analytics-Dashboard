@@ -281,17 +281,6 @@ This project showcases several **industry-relevant data analytics skills**:
 
 ---
 
-# 🔮 Future Improvements
-
-Possible enhancements include:
-
-• Time series **ride demand forecasting**
-• Real-time ride demand analytics
-• Advanced geospatial clustering
-• Driver supply vs demand optimization
-
----
-
 # ▶️ How to Run This Project
 
 Follow these steps to run the Uber Ride Demand Analytics project locally.
@@ -396,6 +385,19 @@ The project provides:
 
 ---
 
+# 🔮 Future Improvements
+
+Possible enhancements include:
+
+• Time series **ride demand forecasting**
+• Real-time ride demand analytics
+• Advanced geospatial clustering
+• Driver supply vs demand optimization
+
+---
+
+
+
 
 
 # 👨‍💻 Author
@@ -418,6 +420,7 @@ LinkedIn
 [https://www.linkedin.com/in/devraj-choudhary-3889412bb/](https://www.linkedin.com/in/devraj-choudhary-3889412bb/)
 
 ---
+
 
 
 
