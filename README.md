@@ -292,6 +292,112 @@ Possible enhancements include:
 
 ---
 
+# ▶️ How to Run This Project
+
+Follow these steps to run the Uber Ride Demand Analytics project locally.
+
+---
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/CodingWithDevraj/Uber-Ride-Demand-Analytics-Dashboard.git
+cd Uber-Ride-Demand-Analytics-Dashboard
+```
+
+---
+
+# 2️⃣ Create Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+```
+
+Activate the environment.
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Mac / Linux
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+# 3️⃣ Install Dependencies
+
+Install required libraries using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 4️⃣ Run Data Analysis Notebooks
+
+Open the Jupyter notebooks to explore the data analysis and preprocessing steps.
+
+```bash
+jupyter notebook
+```
+
+Then open:
+
+```
+notebook/data_cleaning.ipynb
+notebook/eda_analysis.ipynb
+```
+
+---
+
+# 5️⃣ Run the Streamlit Dashboard
+
+To launch the interactive analytics dashboard:
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser at:
+
+```
+http://localhost:8501
+```
+
+---
+
+# 6️⃣ Open Power BI Dashboard
+
+If you want to explore the business intelligence dashboard:
+
+1. Open **Power BI Desktop**
+2. Load the file:
+
+```
+dashboard/UBER_VISUALS.pbix
+```
+
+---
+
+# 📊 Output
+
+The project provides:
+
+• Interactive ride demand analytics dashboard
+• Temporal demand analysis (hourly, weekday, monthly)
+• Geographic pickup distribution insights
+• SQL-based aggregated demand metrics
+
+---
+
+
+
 # 👨‍💻 Author
 
 **Devraj Choudhary**
@@ -312,6 +418,7 @@ LinkedIn
 [https://www.linkedin.com/in/devraj-choudhary-3889412bb/](https://www.linkedin.com/in/devraj-choudhary-3889412bb/)
 
 ---
+
 
 
 
