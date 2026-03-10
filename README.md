@@ -254,8 +254,6 @@ Analysis of the dataset reveals several important demand patterns:
 
 These insights help ride-sharing companies **optimize driver allocation and reduce passenger wait times**.
 
-
-Power BI Dashboard Overview
 <img width="2767" height="1600" alt="dashboard" src="https://github.com/user-attachments/assets/cd269dd4-6ab7-4c46-b9ee-0402cd282fbb" />
 
 
@@ -322,5 +320,6 @@ LinkedIn
 [https://www.linkedin.com/in/devraj-choudhary-3889412bb/](https://www.linkedin.com/in/devraj-choudhary-3889412bb/)
 
 ---
+
 
 
