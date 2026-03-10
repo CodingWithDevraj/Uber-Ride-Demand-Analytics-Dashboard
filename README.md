@@ -1,8 +1,3 @@
----
-
-# 🚕 Uber Ride Demand Intelligence Platform
-
----
 
 # 🚕 Uber Ride Demand Intelligence Platform
 
@@ -317,6 +312,7 @@ LinkedIn
 [https://www.linkedin.com/in/devraj-choudhary-3889412bb/](https://www.linkedin.com/in/devraj-choudhary-3889412bb/)
 
 ---
+
 
 
 
