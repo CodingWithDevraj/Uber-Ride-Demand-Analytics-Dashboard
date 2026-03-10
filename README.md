@@ -2,9 +2,6 @@
 
 # 🚕 Uber Ride Demand Intelligence Platform
 
-Below is a **deep professional README based on your real project structure**.
-You can **replace your README.md with this**.
-
 ---
 
 # 🚕 Uber Ride Demand Intelligence Platform
@@ -320,6 +317,7 @@ LinkedIn
 [https://www.linkedin.com/in/devraj-choudhary-3889412bb/](https://www.linkedin.com/in/devraj-choudhary-3889412bb/)
 
 ---
+
 
 
 
