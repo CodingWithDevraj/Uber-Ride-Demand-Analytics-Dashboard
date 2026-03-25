@@ -11,6 +11,17 @@ The goal is to help ride-sharing platforms **optimize driver allocation, identif
 
 ---
 
+# Live Demo
+
+The project is deployed as an interactive web application using Streamlit:
+
+**Live Application:**
+[https://uber-ride-demand-analytics-dashboard-ltj84nqhni8o7dvwdachyg.streamlit.app/](https://uber-ride-demand-analytics-dashboard-ltj84nqhni8o7dvwdachyg.streamlit.app/)
+
+This allows users to explore ride demand analytics in real-time without setting up the project locally.
+
+---
+
 # Project Overview
 
 Ride-sharing services generate massive volumes of operational data every day. Extracting insights from this data enables companies to:
@@ -50,8 +61,6 @@ Each record represents a **single Uber pickup event in New York City**.
 
 # Data Pipeline
 
-The project follows a structured **analytics workflow used in industry data teams**.
-
 ```
 Raw Dataset
    ↓
@@ -76,14 +85,12 @@ Streamlit Interactive Analytics App
 
 Data preprocessing was performed using **Python (Pandas)**.
 
-Key transformations include extracting temporal features from pickup timestamps:
+Key transformations include:
 
 • Hour of ride
 • Day of month
 • Weekday
 • Month
-
-These features allow detailed **time-based ride demand analysis**.
 
 Cleaned datasets are stored in:
 
@@ -95,90 +102,47 @@ data/cleaned_data/
 
 # Exploratory Data Analysis
 
-EDA was conducted using **Matplotlib and Seaborn** to identify ride demand patterns.
+EDA was conducted using **Matplotlib and Seaborn**.
 
-Key analyses include:
+Key analyses:
 
 • Hourly ride demand distribution
 • Weekday demand comparison
 • Monthly ride trends
 • Pickup location density
 
-Notebooks used:
-
-```
-notebook/eda_analysis.ipynb
-```
-
 ---
 
 # SQL Demand Aggregation
 
-SQL queries were used to calculate important demand metrics.
-
-Examples include:
+Examples:
 
 • Total rides per hour
 • Total rides per weekday
 • Ride demand by Uber base
 • Daily ride volume
 
-SQL queries are stored in:
-
-```
-sql/analysis_queries.sql
-```
-
-These aggregated datasets are exported for dashboard visualization.
-
 ---
 
 # Power BI Dashboard
 
-A **business intelligence dashboard** was developed using Power BI.
+Includes:
 
-Dashboard features include:
-
-### KPI Metrics
-
-• Total rides
-• Peak demand hour
-• Most active weekday
-
-### Visualizations
-
-• Hourly demand trends
-• Weekday ride distribution
-• Monthly ride activity
-• Uber base performance
-• Geographic pickup distribution
-
-Dashboard file:
-
-```
-dashboard/UBER_VISUALS.pbix
-```
+• KPI metrics (total rides, peak hour, weekday trends)
+• Demand visualizations
+• Geographic analysis
 
 ---
 
 # Streamlit Analytics Application
 
-A modern **interactive analytics app** was developed using **Streamlit and Plotly**.
+Features:
 
-The application includes:
+• Interactive charts (Plotly)
+• Dynamic filters
+• Professional UI
 
-• Interactive ride demand visualizations
-• Dynamic filtering of demand metrics
-• Dark-themed professional UI
-• Interactive charts using Plotly
-
-Main application file:
-
-```
-app.py
-```
-
-Run locally with:
+Run locally:
 
 ```
 streamlit run app.py
@@ -190,40 +154,11 @@ streamlit run app.py
 
 ```
 uber-ride-demand-analytics
-│
 ├── app.py
-│
-├── assets
-│   └── dashboard.png
-│
-├── dashboard
-│   └── UBER_VISUALS.pbix
-│
-├── data
-│   ├── raw
-│   │   └── uber-raw-data-apr14.csv
-│   │
-│   ├── cleaned_data
-│   │   ├── location_clusters.csv
-│   │   ├── location_demand.csv
-│   │   ├── rides_by_base.csv
-│   │   ├── rides_by_day.csv
-│   │   └── rides_by_hour.csv
-│   │
-│   └── powerbi_data
-│       ├── pickup_locations.csv
-│       ├── rides_by_base.csv
-│       ├── rides_by_day.csv
-│       ├── rides_by_hour.csv
-│       └── rides_by_weekday.csv
-│
-├── notebook
-│   ├── data_cleaning.ipynb
-│   └── eda_analysis.ipynb
-│
-├── sql
-│   └── analysis_queries.sql
-│
+├── dashboard/
+├── data/
+├── notebook/
+├── sql/
 └── README.md
 ```
 
@@ -231,16 +166,10 @@ uber-ride-demand-analytics
 
 # Key Insights
 
-Analysis of the dataset reveals several important demand patterns:
-
-• Ride demand peaks between **5 PM – 7 PM**, reflecting evening commute traffic
-• Weekday demand is higher than weekend demand
-• Certain days show spikes in ride activity
-• Manhattan has the highest pickup density
-
-These insights help ride-sharing companies **optimize driver allocation and reduce passenger wait times**.
-
-<img width="2767" height="1600" alt="dashboard" src="https://github.com/user-attachments/assets/cd269dd4-6ab7-4c46-b9ee-0402cd282fbb" />
+• Peak demand: 5 PM – 7 PM
+• Weekdays > Weekends
+• Manhattan highest demand
+• Demand spikes on specific days
 
 ---
 
@@ -261,140 +190,46 @@ These insights help ride-sharing companies **optimize driver allocation and redu
 
 # Skills Demonstrated
 
-This project showcases several **industry-relevant data analytics skills**:
-
 • Data Cleaning & Feature Engineering
 • Exploratory Data Analysis
-• SQL Data Aggregation
-• Business Intelligence Dashboard Development
-• Interactive Data Applications
-• Analytical Storytelling
+• SQL Aggregation
+• Dashboard Development
+• Interactive Applications
 
 ---
 
 # How to Run This Project
 
-Follow these steps to run the Uber Ride Demand Analytics project locally.
-
----
-
-## 1. Clone the Repository
-
 ```bash
 git clone https://github.com/CodingWithDevraj/Uber-Ride-Demand-Analytics-Dashboard.git
 cd Uber-Ride-Demand-Analytics-Dashboard
-```
 
----
-
-# 2. Create Virtual Environment (Recommended)
-
-```bash
 python -m venv venv
-```
-
-Activate the environment.
-
-### Windows
-
-```bash
 venv\Scripts\activate
-```
 
-### Mac / Linux
-
-```bash
-source venv/bin/activate
-```
-
----
-
-# 3. Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
-
----
-
-# 4. Run Data Analysis Notebooks
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```
-notebook/data_cleaning.ipynb
-notebook/eda_analysis.ipynb
-```
-
----
-
-# 5. Run the Streamlit Dashboard
-
-```bash
 streamlit run app.py
 ```
-
-Application runs at:
-
-```
-http://localhost:8501
-```
-
----
-
-# 6. Open Power BI Dashboard
-
-1. Open Power BI Desktop
-2. Load:
-
-```
-dashboard/UBER_VISUALS.pbix
-```
-
----
-
-# Output
-
-The project provides:
-
-• Interactive ride demand analytics dashboard
-• Temporal demand analysis (hourly, weekday, monthly)
-• Geographic pickup distribution insights
-• SQL-based aggregated demand metrics
 
 ---
 
 # Future Improvements
 
-Possible enhancements include:
-
-• Time series ride demand forecasting
-• Real-time ride demand analytics
+• Demand forecasting
+• Real-time analytics
 • Advanced geospatial clustering
-• Driver supply vs demand optimization
+• Supply-demand optimization
 
 ---
 
 # Author
 
 **Devraj Choudhary**
-
 B.Tech – Computer Science & Engineering
 Gurukul Kangri Deemed to be University
-
-Interests
-
-• Data Analytics
-• Machine Learning
-• Business Intelligence
 
 GitHub
 [https://github.com/CodingWithDevraj](https://github.com/CodingWithDevraj)
 
 LinkedIn
 [https://www.linkedin.com/in/devraj-choudhary-3889412bb/](https://www.linkedin.com/in/devraj-choudhary-3889412bb/)
-
