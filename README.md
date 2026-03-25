@@ -1,23 +1,17 @@
-
-# 🚕 Uber Ride Demand Intelligence Platform
-
-![Python](https://img.shields.io/badge/Python-Analytics-blue)
-![SQL](https://img.shields.io/badge/SQL-Data%20Querying-orange)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
-![Streamlit](https://img.shields.io/badge/Streamlit-Interactive%20App-red)
+# Uber Ride Demand Intelligence Platform
 
 An **end-to-end ride demand analytics platform** that analyzes **Uber pickup patterns in New York City** using **Python, SQL, Power BI, and Streamlit**.
 
 The project processes **564,000+ Uber pickup records** to uncover demand patterns across **time, geography, and operational bases**, and delivers insights through both:
 
-• **Interactive Streamlit analytics application**
-• **Business intelligence dashboard in Power BI**
+• Interactive Streamlit analytics application
+• Business intelligence dashboard in Power BI
 
 The goal is to help ride-sharing platforms **optimize driver allocation, identify peak demand periods, and improve operational efficiency**.
 
 ---
 
-# 🚀 Project Overview
+# Project Overview
 
 Ride-sharing services generate massive volumes of operational data every day. Extracting insights from this data enables companies to:
 
@@ -38,13 +32,13 @@ The system performs:
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 Dataset Source: **Kaggle – Uber Pickup Data (NYC)**
 
 Dataset contains:
 
-• **564,000+ Uber ride records**
+• 564,000+ Uber ride records
 • Pickup datetime
 • Latitude
 • Longitude
@@ -54,7 +48,7 @@ Each record represents a **single Uber pickup event in New York City**.
 
 ---
 
-# ⚙️ Data Pipeline
+# Data Pipeline
 
 The project follows a structured **analytics workflow used in industry data teams**.
 
@@ -78,7 +72,7 @@ Streamlit Interactive Analytics App
 
 ---
 
-# 🧹 Data Cleaning & Feature Engineering
+# Data Cleaning & Feature Engineering
 
 Data preprocessing was performed using **Python (Pandas)**.
 
@@ -99,7 +93,7 @@ data/cleaned_data/
 
 ---
 
-# 🔎 Exploratory Data Analysis
+# Exploratory Data Analysis
 
 EDA was conducted using **Matplotlib and Seaborn** to identify ride demand patterns.
 
@@ -118,7 +112,7 @@ notebook/eda_analysis.ipynb
 
 ---
 
-# 🗄 SQL Demand Aggregation
+# SQL Demand Aggregation
 
 SQL queries were used to calculate important demand metrics.
 
@@ -139,7 +133,7 @@ These aggregated datasets are exported for dashboard visualization.
 
 ---
 
-# 📊 Power BI Dashboard
+# Power BI Dashboard
 
 A **business intelligence dashboard** was developed using Power BI.
 
@@ -167,7 +161,7 @@ dashboard/UBER_VISUALS.pbix
 
 ---
 
-# 🖥 Streamlit Analytics Application
+# Streamlit Analytics Application
 
 A modern **interactive analytics app** was developed using **Streamlit and Plotly**.
 
@@ -192,7 +186,7 @@ streamlit run app.py
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 uber-ride-demand-analytics
@@ -235,25 +229,22 @@ uber-ride-demand-analytics
 
 ---
 
-# 📈 Key Insights
+# Key Insights
 
 Analysis of the dataset reveals several important demand patterns:
 
 • Ride demand peaks between **5 PM – 7 PM**, reflecting evening commute traffic
-• **Weekday demand is higher than weekend demand**
-• Certain days show **spikes in ride activity**
-• **Manhattan has the highest pickup density**
+• Weekday demand is higher than weekend demand
+• Certain days show spikes in ride activity
+• Manhattan has the highest pickup density
 
 These insights help ride-sharing companies **optimize driver allocation and reduce passenger wait times**.
 
 <img width="2767" height="1600" alt="dashboard" src="https://github.com/user-attachments/assets/cd269dd4-6ab7-4c46-b9ee-0402cd282fbb" />
 
-
-
-
 ---
 
-# 🛠 Technology Stack
+# Technology Stack
 
 | Category          | Tools            |
 | ----------------- | ---------------- |
@@ -268,7 +259,7 @@ These insights help ride-sharing companies **optimize driver allocation and redu
 
 ---
 
-# 💡 Skills Demonstrated
+# Skills Demonstrated
 
 This project showcases several **industry-relevant data analytics skills**:
 
@@ -281,13 +272,13 @@ This project showcases several **industry-relevant data analytics skills**:
 
 ---
 
-# ▶️ How to Run This Project
+# How to Run This Project
 
 Follow these steps to run the Uber Ride Demand Analytics project locally.
 
 ---
 
-## 1️⃣ Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/CodingWithDevraj/Uber-Ride-Demand-Analytics-Dashboard.git
@@ -296,7 +287,7 @@ cd Uber-Ride-Demand-Analytics-Dashboard
 
 ---
 
-# 2️⃣ Create Virtual Environment (Recommended)
+# 2. Create Virtual Environment (Recommended)
 
 ```bash
 python -m venv venv
@@ -318,9 +309,7 @@ source venv/bin/activate
 
 ---
 
-# 3️⃣ Install Dependencies
-
-Install required libraries using:
+# 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -328,15 +317,13 @@ pip install -r requirements.txt
 
 ---
 
-# 4️⃣ Run Data Analysis Notebooks
-
-Open the Jupyter notebooks to explore the data analysis and preprocessing steps.
+# 4. Run Data Analysis Notebooks
 
 ```bash
 jupyter notebook
 ```
 
-Then open:
+Open:
 
 ```
 notebook/data_cleaning.ipynb
@@ -345,15 +332,13 @@ notebook/eda_analysis.ipynb
 
 ---
 
-# 5️⃣ Run the Streamlit Dashboard
-
-To launch the interactive analytics dashboard:
+# 5. Run the Streamlit Dashboard
 
 ```bash
 streamlit run app.py
 ```
 
-The application will open in your browser at:
+Application runs at:
 
 ```
 http://localhost:8501
@@ -361,12 +346,10 @@ http://localhost:8501
 
 ---
 
-# 6️⃣ Open Power BI Dashboard
+# 6. Open Power BI Dashboard
 
-If you want to explore the business intelligence dashboard:
-
-1. Open **Power BI Desktop**
-2. Load the file:
+1. Open Power BI Desktop
+2. Load:
 
 ```
 dashboard/UBER_VISUALS.pbix
@@ -374,7 +357,7 @@ dashboard/UBER_VISUALS.pbix
 
 ---
 
-# 📊 Output
+# Output
 
 The project provides:
 
@@ -385,22 +368,18 @@ The project provides:
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 Possible enhancements include:
 
-• Time series **ride demand forecasting**
+• Time series ride demand forecasting
 • Real-time ride demand analytics
 • Advanced geospatial clustering
 • Driver supply vs demand optimization
 
 ---
 
-
-
-
-
-# 👨‍💻 Author
+# Author
 
 **Devraj Choudhary**
 
@@ -418,12 +397,4 @@ GitHub
 
 LinkedIn
 [https://www.linkedin.com/in/devraj-choudhary-3889412bb/](https://www.linkedin.com/in/devraj-choudhary-3889412bb/)
-
----
-
-
-
-
-
-
 
